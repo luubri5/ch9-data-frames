@@ -44,7 +44,7 @@ highest_raise <- max(salaries$change)
 got_biggest_raise <- salaries[salaries$change == highest_raise, "employees"]
 
 # What was the largest decrease in salaries between the two years?
-biggest_paycut <- min(salaries$change)
+biggest_paycut <- min(salaries $change)
 
 # What was the name of the employee who recieved largest decrease in salary?
 got_biggest_paycut <- salaries[salaries$change == biggest_paycut, "employees"]
